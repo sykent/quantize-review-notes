@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sykent-Notes</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <!-- <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css"> -->
+  <!-- 阿里巴巴的样式 -->
+   <link rel="stylesheet" href="//h5.m.taobao.com/trip/weex-ui/index.min.css">
+   <!-- 大企业的样式 -->
+   <!-- <link rel="stylesheet" href="assets/styles.css" /> -->
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+    mergeNavbar: true,
+	  loadSidebar: true,
+
+    auto2top: true,
+    // autoHeader: false,
+    subMaxLevel: 4,
+    // maxLevel: 4,
+
+	  loadNavbar: true,
+      name: 'Sykent-Notes',
+      repo: 'https://github.com/sykent/Sykent-Notes',
+
+	 search: {
+            maxAge: 86400000, // 过期时间，单位毫秒，默认一天
+            noData: '找不到结果',//搜索不到结果时显示
+            paths: 'auto',//自动
+            placeholder: '搜索',//搜索框提示
+            depth: 6 // 搜索标题的最大层级, 1 - 6
+        },
+
+	plantuml: {
+     skin: 'classic',
+        },
+
+     // docsify-copy-code (defaults)
+     copyCode: {
+       buttonText : '点击复制',
+       errorText  : '错误',
+       successText: '复制'
+     },
+    }
+  </script>
+  <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/search.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-java.js"></script>
+  <script src="https://unpkg.com/docsify-copy-code@2"></script>
+  <script src="//unpkg.com/docsify-plantuml/dist/docsify-plantuml.min.js"></script>
+   <script src="//unpkg.com/prismjs/components/prism-markdown.min.js"></script>
+   <!-- 分页导航 -->
+   <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+   <!-- 字数统计 -->
+   <!-- <script src="//unpkg.com/docsify-count/dist/countable.js"></script> -->
+  <!-- 侧栏自动折叠 -->
+  <!-- <script src="//unpkg.com/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"> -->
+
+</body>
+</html>
