@@ -1,1 +1,1 @@
-* [test2](test2.md)
+* [test2](/docs/02/test2.md)
