@@ -1,2 +1,2 @@
 
-* [test](test1.md)
+* [test1](test1.md)
