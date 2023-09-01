@@ -1,3 +1,4 @@
+* [2023年09月](/docs/202309/_sidebar.md)
 * [2023年08月](/docs/202308/_sidebar.md)
 * [2023年07月](/docs/202307/_sidebar.md)
 * [2023年06月](/docs/202306/_sidebar.md)
